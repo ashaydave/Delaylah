@@ -180,7 +180,7 @@ void HeyThereDelaylahAudioProcessorEditor::resized()
     float yMargin = 10.0f;
 
     float totalWidth = (5 * sliderWidth) + (4 * xMargin);
-
+    // Chen's horizontal layout code:
     // Calculate the horizontal position of the first label
     float startX = (width - totalWidth) / 2;
 
